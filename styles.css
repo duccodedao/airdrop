@@ -171,17 +171,15 @@ button:hover {
     margin-right: 8px; /* Khoảng cách giữa biểu tượng và văn bản */
 }
 
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  margin-top: 20px;
+.link-icon {
+  width: 30px; /* Điều chỉnh kích thước của ảnh */
+  height: 30px; /* Điều chỉnh kích thước của ảnh */
+  border-radius: 50%; /* Tạo hình tròn */
+  margin-right: 8px; /* Khoảng cách giữa ảnh và văn bản */
 }
 
 .links a {
   display: flex;
-  flex-basis: calc(50% - 5px);
   align-items: center;
   background-color: #333;
   padding: 8px 16px;
@@ -193,10 +191,4 @@ button:hover {
 
 .links a:hover {
   background-color: #555;
-}
-
-@media screen and (max-width: 600px) {
-  .links a {
-    flex-basis: calc(100% - 10px);
-  }
 }
