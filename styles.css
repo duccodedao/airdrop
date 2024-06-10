@@ -187,7 +187,8 @@ button:hover {
 }
 
 .link-icon {
-    width: 20px; /* Điều chỉnh kích thước của biểu tượng nếu cần */
-    height: 20px; /* Điều chỉnh kích thước của biểu tượng nếu cần */
+    width: 20px; /* Kích thước của biểu tượng */
+    height: 20px; /* Kích thước của biểu tượng */
+    border-radius: 50%; /* Tạo hình tròn */
     margin-right: 8px; /* Khoảng cách giữa biểu tượng và văn bản */
 }
