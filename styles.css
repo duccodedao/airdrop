@@ -171,24 +171,32 @@ button:hover {
     margin-right: 8px; /* Khoảng cách giữa biểu tượng và văn bản */
 }
 
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .links a {
-    display: inline-flex;
-    align-items: center;
-    background-color: #333;
-    padding: 8px 16px;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+  display: flex;
+  flex-basis: calc(50% - 5px);
+  align-items: center;
+  background-color: #333;
+  padding: 8px 16px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .links a:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
-.link-icon {
-    width: 20px; /* Kích thước của biểu tượng */
-    height: 20px; /* Kích thước của biểu tượng */
-    border-radius: 50%; /* Tạo hình tròn */
-    margin-right: 8px; /* Khoảng cách giữa biểu tượng và văn bản */
+@media screen and (max-width: 600px) {
+  .links a {
+    flex-basis: calc(100% - 10px);
+  }
 }
