@@ -1,14 +1,18 @@
-document.getElementById('generate-button').addEventListener('click', function() {
-  var inputData = document.getElementById('input-data').value;
-  if (inputData.trim() !== '') {
-      var qrcodeContainer = document.getElementById('qrcode');
-      qrcodeContainer.innerHTML = '';
-      new QRCode(qrcodeContainer, {
-          text: inputData,
-          width: 256,
-          height: 256
-      });
-  } else {
-      alert('Vui lòng nhập dữ liệu để tạo mã QR.');
-  }
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Lấy số lần truy cập từ Local Storage
+    let visitCount = localStorage.getItem('visitCount');
+
+    // Nếu chưa có giá trị thì đặt là 0
+    if (visitCount === null) {
+        visitCount = 153;
+    }
+
+    // Tăng số lần truy cập lên 1
+    visitCount++;
+
+    // Cập nhật giá trị trong Local Storage
+    localStorage.setItem('visitCount', visitCount);
+
+    // Hiển thị số lần truy cập trên trang
+    document.getElementById('visitCount').innerText = visitCount;
 });
