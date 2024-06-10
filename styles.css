@@ -3,40 +3,37 @@ body {
   font-family: Arial, sans-serif;
   background-color: #121212;
   color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 .container {
   text-align: center;
+  padding: 20px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px 0;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .join-button {
   background-color: #ff6600;
   border: none;
-  padding: 10px 20px;
+  padding: 8px 16px;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   border-radius: 5px;
 }
 
 .content h1 {
-  font-size: 48px;
+  font-size: 32px;
   margin: 20px 0;
 }
 
@@ -47,38 +44,34 @@ body {
   margin: 20px 0;
 }
 
-
-
 .round-logo {
-  width: 50px; /* Điều chỉnh kích thước của logo nếu cần */
-  height: 50px; /* Điều chỉnh kích thước của logo nếu cần */
-  border-radius: 50%; /* Tạo hình tròn */
-  overflow: hidden; /* Loại bỏ phần nằm ngoài phần tròn */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
 }
-
-
 
 .contact-buttons {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   margin: 20px 0;
 }
 
 .contact-icon {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
 }
 
 .play-button {
   background-color: #1e90ff;
   border: none;
-  padding: 15px 30px;
+  padding: 12px 24px;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 8px;
   margin-top: 20px;
 }
 
@@ -92,7 +85,7 @@ body {
 
 .links a {
   background-color: #333;
-  padding: 10px 20px;
+  padding: 8px 16px;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -103,27 +96,25 @@ body {
   background-color: #555;
 }
 
-
-
 .preparation {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .preparation h2 {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 .preparation-links {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   margin-top: 10px;
 }
 
 .preparation-links a {
   background-color: #333;
-  padding: 10px 20px;
+  padding: 8px 16px;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -134,7 +125,6 @@ body {
   background-color: #555;
 }
 
-
 .hot-link {
   position: relative;
   display: inline-block;
@@ -143,15 +133,13 @@ body {
 .hot-link::after {
   content: '';
   position: absolute;
-  top: -10px;
-  right: -10px;
-  width: 20px;
-  height: 30px;
+  top: -8px;
+  right: -8px;
+  width: 16px;
+  height: 24px;
   background: url('hot-icon.png') no-repeat center center;
   background-size: cover;
 }
-
-
 
 .registration-buttons {
   display: flex;
@@ -167,10 +155,10 @@ body {
 }
 
 .ico-btn img {
-  width: 50px; /* Điều chỉnh kích thước của logo nếu cần */
-  height: 50px; /* Điều chỉnh kích thước của logo nếu cần */
+  width: 40px;
+  height: 40px;
 }
 
 .ico-btn:hover {
-  transform: scale(1.1); /* Hiệu ứng phóng to khi di chuột qua */
+  transform: scale(1.1);
 }
