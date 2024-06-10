@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Nếu chưa có giá trị thì đặt là 0
     if (visitCount === null) {
-        visitCount = 153;
+        visitCount = 0;
     }
 
     // Tăng số lần truy cập lên 1
