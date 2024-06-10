@@ -180,8 +180,8 @@ button:hover {
 }
 
 .links a {
+  flex-basis: calc(50% - 5px); /* Chia thành 2 cột */
   display: flex;
-  flex-basis: calc(50% - 5px);
   align-items: center;
   background-color: #333;
   padding: 8px 16px;
@@ -195,8 +195,8 @@ button:hover {
   background-color: #555;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .links a {
-    flex-basis: calc(100% - 10px);
+    flex-basis: calc(100% - 10px); /* Hiển thị dưới dạng cột trên điện thoại */
   }
 }
