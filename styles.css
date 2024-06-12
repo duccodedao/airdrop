@@ -192,3 +192,51 @@ button:hover {
 .links a:hover {
   background-color: #555;
 }
+.card {
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.card .description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.card .details {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card .details div {
+  margin-bottom: 10px;
+}
+
+.card .details .label {
+  font-weight: bold;
+  margin-right: 5px;
+}
