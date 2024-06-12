@@ -192,3 +192,55 @@ button:hover {
 .links a:hover {
   background-color: #555;
 }
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.card .description {
+    color: #555;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.card .details {
+    font-size: 14px;
+    color: #333;
+}
+
+.card .details div {
+    margin: 5px 0;
+}
+
+.card .details .label {
+    font-weight: bold;
+    color: #888;
+}
