@@ -200,7 +200,7 @@ body {
 }
 
 .card {
-    background-color: rgba(128, 128, 128, 0.7); /* Màu xám mờ */
+    background: rgba(255, 255, 255, 0.7); /* Màu trắng mờ */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -208,6 +208,7 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
 
 .card img {
     width: 40px;
