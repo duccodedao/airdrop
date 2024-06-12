@@ -192,6 +192,10 @@ button:hover {
 .links a:hover {
   background-color: #555;
 }
+
+
+
+
 .card {
   background-color: #333;
   color: white;
@@ -199,12 +203,13 @@ button:hover {
   padding: 20px;
   margin-top: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Căn chỉnh nội dung trong thẻ sang trái */
 }
 
 .card img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 15px;
+  width: 100%; /* Đảm bảo hình ảnh rộng 100% của thẻ */
+  border-radius: 10px; /* Bo tròn các góc của hình ảnh */
+  margin-bottom: 15px; /* Khoảng cách dưới hình ảnh */
 }
 
 .card h2 {
@@ -213,23 +218,23 @@ button:hover {
 }
 
 .card a {
-  color: #1e90ff;
-  text-decoration: none;
+  color: #1e90ff; /* Màu văn bản cho liên kết */
+  text-decoration: none; /* Loại bỏ gạch chân */
 }
 
 .card a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Gạch chân khi rê chuột qua liên kết */
 }
 
 .card .description {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5; /* Độ cao dòng cho mô tả */
   margin-bottom: 15px;
 }
 
 .card .details {
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.5; /* Độ cao dòng cho chi tiết */
 }
 
 .card .details div {
@@ -237,6 +242,6 @@ button:hover {
 }
 
 .card .details .label {
-  font-weight: bold;
-  margin-right: 5px;
+  font-weight: bold; /* Chữ in đậm cho nhãn */
+  margin-right: 5px; /* Khoảng cách với nội dung bên phải */
 }
