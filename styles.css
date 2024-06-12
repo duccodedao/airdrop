@@ -201,27 +201,29 @@ button:hover {
   color: white;
   border-radius: 10px;
   padding: 10px;
-  margin-top: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: left;
-  max-width: 250px; /* Giới hạn chiều rộng tối đa của thẻ */
-  margin: 20px auto; /* Canh giữa thẻ */
+  max-width: 200px; /* Giới hạn chiều rộng tối đa của thẻ */
+  margin: 10px auto; /* Canh giữa thẻ */
+  font-size: 10px; /* Giảm kích thước chữ tổng thể */
 }
 
 .card img {
   width: 100%; 
   border-radius: 10px;
-  margin-bottom: 8px; /* Giảm khoảng cách dưới hình ảnh */
+  margin-bottom: 5px; /* Giảm khoảng cách dưới hình ảnh */
 }
 
 .card h2 {
-  font-size: 18px; /* Giảm kích thước chữ */
-  margin-bottom: 6px; /* Giảm khoảng cách dưới */
+  font-size: 14px; /* Giảm kích thước chữ */
+  margin-bottom: 5px; /* Giảm khoảng cách dưới */
 }
 
 .card a {
   color: #1e90ff; 
   text-decoration: none; 
+  font-size: 10px; /* Giảm kích thước chữ */
 }
 
 .card a:hover {
@@ -229,21 +231,22 @@ button:hover {
 }
 
 .card .description {
-  font-size: 12px; /* Giảm kích thước chữ */
-  line-height: 1.4; 
-  margin-bottom: 8px; /* Giảm khoảng cách dưới */
+  font-size: 10px; /* Giảm kích thước chữ */
+  line-height: 1.2; 
+  margin-bottom: 5px; /* Giảm khoảng cách dưới */
 }
 
 .card .details {
-  font-size: 10px; /* Giảm kích thước chữ */
-  line-height: 1.4;
+  font-size: 9px; /* Giảm kích thước chữ */
+  line-height: 1.2;
 }
 
 .card .details div {
-  margin-bottom: 6px; /* Giảm khoảng cách giữa các chi tiết */
+  margin-bottom: 5px; /* Giảm khoảng cách giữa các chi tiết */
 }
 
 .card .details .label {
   font-weight: bold;
   margin-right: 5px;
+  font-size: 9px; /* Giảm kích thước chữ */
 }
