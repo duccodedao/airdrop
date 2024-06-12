@@ -199,6 +199,7 @@ body {
     width: 100%;
 }
 
+
 .card {
     background: rgba(255, 255, 255, 0.7); /* Màu trắng mờ */
     border-radius: 10px;
@@ -208,7 +209,6 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-
 
 .card img {
     width: 40px;
