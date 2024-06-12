@@ -193,8 +193,10 @@ button:hover {
     background-color: #555;
 }
 
+
+
 .card {
-    background-color: white;
+    background-color: rgba(128, 128, 128, 0.7); /* Semi-transparent gray */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
