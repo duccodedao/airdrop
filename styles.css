@@ -273,3 +273,13 @@ button:hover {
 .exchange-logo img:hover {
   transform: scale(1.1); /* Hiệu ứng phóng to khi di chuột */
 }
+
+
+.countdown-timer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#timer {
+  font-size: 20px;
+}
