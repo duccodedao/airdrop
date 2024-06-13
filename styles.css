@@ -211,8 +211,8 @@ button:hover {
 }
 
 .card img {
-  width: 20px; /* Giảm kích thước hình ảnh */
-  height: 20px;
+  width: 50px; /* Giảm kích thước hình ảnh */
+  height: 50px;
   border-radius: 10px;
   margin-right: 5px; /* Khoảng cách giữa hình ảnh và nội dung */
 }
